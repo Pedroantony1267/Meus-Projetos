@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Open Sans', sans-serif;;
+}
+
+html body{
+    height: 100%;
+    background-color: #fafafa;
+}
+
+.container{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.clear{
+    clear: both;
+}
+
+header{
+    position: relative;
+    width: 100%;
+    height: 450px;
+    background-image: url(../images/image-hero-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header .logo{
+    padding-top: 50px;
+    float: left;
+}
+
+header nav{
+    padding-top: 50px;
+    margin-top: 3px;
+    float: right;
+}
+
+header ul li{
+    margin: 0 20px;
+    display: inline-block;
+}
+
+header ul li a{
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+}
+
+.logo2{
+    left: 50%;
+    transform: translateX(-50%);
+    top: 310px;
+    z-index: 2;
+    position: absolute;
+}
+
+.box1{
+    padding: 50px 55px 0 55px;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    max-width: 800px;
+    height: 300px;
+    background-color: white;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 340px;
+    border-radius: 10px;
+}
+
+.box1 h2{
+    font-size: 30px;
+}
+
+.box1 p{
+    margin-top: 25px;
+    color: #8e8e8e;
+}
+
+.box1 .btn1{
+    margin-top: 40px;
+    font-weight: 700;
+    width: 220px;
+    color: white;
+    background-color: #3cb4ab;
+    line-height: 60px;
+    float: left;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.box1 .btn1:hover{
+    background-color: #137b74;
+}
+
+.box1 .btn2{
+    position: relative;
+    margin-top: 40px;
+    width: 185px;
+    background-color: #f4f4f4;
+    float: right;
+    cursor: pointer;
+    border-radius: 30px;
+    height: 60px;
+}
+
+.box1 .btn2 img{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.box1 .btn2 p{
+    position: absolute;
+    top: -5px;
+    left: 77px;
+    display: inline-block;
+    font-weight: 700;
+}
+
+.suppot{
+    display: none;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.suppot .box-thanks{
+    padding: 0 55px 0 55px;
+    position: absolute;
+    top: -200px;
+    left: 0;
+    width: 100%;
+    max-width: 600px;
+    height: 450px;
+    z-index: 6;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.suppot .box-thanks img{
+    margin-top: 40px;
+}
+
+.suppot .box-thanks h2{
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.suppot .box-thanks .btn{
+    font-weight: 700;
+    width: 130px;
+    color: white;
+    background-color: #3cb4ab;
+    line-height: 60px;
+    cursor: pointer;
+    border-radius: 30px;
+    margin: 40px auto 0 auto;
+}
+
+.suppot .box-thanks .btn:hover{
+    background-color: #137b74;
+}
+ 
+.suppot .box-thanks p{
+    margin-top: 25px;
+    color: #8e8e8e;
+}
+
+.suppot .bg{
+    position: absolute;
+    top: -450px;
+    left: 0;
+    width: 100%;
+    height: 1000px;
+    z-index: 5;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.box2{
+    padding: 50px 50px 0 50px;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    max-width: 800px;
+    height: 230px;
+    background-color: white;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 660px;
+    border-radius: 10px;
+}
+
+.box2 .resultados{
+    display: flex;
+}
+
+.box2 .box-single{
+    text-align: center;
+    padding: 0 55px;
+    border-right: 1px solid #ccc;
+}
+
+.box2 .box-single:last-child{
+    border-right: none;
+}
+
+.box2 .box-single h2{
+    font-size: 30px;
+}
+
+.box2 .box-single p{
+    color: #8e8e8e;
+}
+
+.box2 .barra{
+    width: 100%;
+    height: 14px;
+    margin-top: 50px;
+    background-color: #f4f4f4;
+    border-radius: 7px;
+    position: relative;
+}
+
+.box2 .barra .preenchimento{
+    width: 80%;
+    height: 14px;
+    border-radius: 7px;
+    background-color: #3cb4ab;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}

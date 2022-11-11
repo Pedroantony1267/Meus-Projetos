@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu Mono';
+}
+
+html,body{
+    height: 100%;
+    background-color: #c5e4e7;
+}
+
+.clear{
+    clear: both;
+}
+
+.box{
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    padding: 30px;
+    background-color: white;
+    height: 500px;
+    width: 900px;
+    border-radius: 20px;
+}
+
+
+.dados{
+    padding: 20px 50px 20px 20px;
+    height: 100%;
+    float: left;
+    width: 50%;
+}
+
+.resultado{
+    padding: 40px;
+    position: relative;
+    height: 100%;
+    float: left;
+    width: 50%;
+    background-color: #00474b;
+    border-radius: 15px;
+}
+
+.dados .bill h2{
+    font-size: 15px;
+    color: #6d7f7f;
+}
+
+.dados .bill input{
+    background-image: url(../img/icon-dollar.svg);
+    background-repeat: no-repeat;
+    background-position: 15px;
+    padding: 0 15px;
+    color: #043f43;
+    font-size: 30px;
+    border-radius: 5px;
+    height: 50px;
+    text-align: right;
+    border: none;
+    background-color: #f3f8fb;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.dados .bill input:focus{
+    outline: none;
+    border: solid 2px #58a59b;
+}
+
+.dados .select{
+    margin-top: 50px;
+}
+
+.dados .select h2{
+    font-size: 15px;
+    color: #6d7f7f;
+}
+
+.dados .select .butons{
+    margin-left: 2px;
+    margin-top: 10px;
+    width: 100%;
+    height: 150px;
+}
+
+.select .butons input{
+    cursor: pointer;
+    margin-top: 10px;
+    width: 31%;
+    color: white;
+    height: 50px;
+    border: none;
+    background-color: #043f43;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+.select .butons input:last-child{
+    padding: 0 15px;
+    color: #043f43;
+    font-size: 25px;
+    border-radius: 5px;
+    height: 50px;
+    text-align: right;
+    border: none;
+    background-color: #f3f8fb;
+}
+
+.select .butons input:focus{
+    outline: none;
+    background-color: #9fe8df;
+    color: #043f43;
+}
+
+
+.select .butons input:last-child:focus{
+    border: solid 2px #58a59b;
+    background-color: #f3f8fb;
+}
+
+.dados .number{
+    margin-top: 20px;
+}
+
+.dados .number h2{
+    font-size: 15px;
+    color: #6d7f7f;
+}
+
+.dados .number input{
+    background-image: url(../img/icon-person.svg);
+    background-repeat: no-repeat;
+    background-position: 15px;
+    padding: 0 15px;
+    color: #043f43;
+    font-size: 30px;
+    border-radius: 5px;
+    height: 50px;
+    text-align: right;
+    border: none;
+    background-color: #f3f8fb;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.dados .number input:focus{
+    outline: none;
+    border: solid 2px #58a59b;
+}
+
+.amount{
+    margin-top: 30px;
+}
+
+.amount .por_person{
+    float: left;
+}
+
+.amount .por_person h2{
+    font-size: 20px;
+    margin-top: 10px;
+    color: white;
+}
+
+.amount .por_person p{
+    margin-top: 5px;
+    color: #6d7f7f;
+}
+
+.amount h1{
+    float: right;
+    color: #58a59b;
+    font-size: 50px;
+}
+
+.total{
+    margin-top: 60px;
+}
+
+.total .por_person{
+    float: left;
+}
+
+.total .por_person h2{
+    font-size: 20px;
+    margin-top: 10px;
+    color: white;
+}
+
+.total .por_person p{
+    margin-top: 5px;
+    color: #6d7f7f;
+}
+
+.total h1{
+    float: right;
+    color: #58a59b;
+    font-size: 50px;
+}
+
+
+.resultado input{
+    height: 50px;
+    border: none;
+    background-color: #9fe8df;
+    color: #00474b;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 40px;
+    width: 80%;
+    border-radius: 5px;
+    font-size: 30px;
+}

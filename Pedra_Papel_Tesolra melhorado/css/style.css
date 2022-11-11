@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.clear {
+  clear: both;
+}
+
+.cantainer {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.player-options {
+  float: left;
+}
+
+.player-options img {
+  max-width: 200px;
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.enemy-options img {
+  max-width: 200px;
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.tabela-resultados {
+  width: 100%;
+  height: 200px;
+}
+
+/*.tabela-resultados .player-resultados{
+    background-color: green;
+}
+
+.tabela-resultados .inimigo-resultados{
+    background-color: red;
+}
+
+.player-resultados .player-single{
+    width: 80px;
+    height: 80px;
+    border: solid 1px black;
+    float: left;
+}
+
+.inimigo-resultados .inimigo-single{
+    width: 80px;
+    height: 80px;
+    border: solid 1px black;
+    float: left;
+}*/
+
+.player-resultados img {
+  width: 80px;
+  height: 80px;
+}
+
+.inimigo-resultados img {
+  width: 80px;
+  height: 80px;
+}

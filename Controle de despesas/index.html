@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+        <title>Controle de gastos</title>
+    </head>
+    <body>
+        <div class="container">
+            <h2>Controle de gastos</h2>
+            <div class="saldo">
+                <h3>SALDO ATUAL</h3>
+                <h1>R$ 00,00</h1>
+            </div><!--saldo-->
+            <div class="valores">
+                <div class="receitas">
+                    <h3>RECEITAS</h3>
+                    <h2>R$ 00,00</h2>
+                </div><!--receirtas-->
+                <div class="despesas">
+                    <h3>DESPESAS</h3>
+                    <h2>R$ 00,00</h4>
+                </div><!--despesas-->
+            </div><!--valores-->
+            <div class="transacoes">
+                <h2>Transações</h2>
+                <ul><!--
+                    <li class="box-transacoes plus">
+                        <p>salario</p>
+                        <p>+ R$ 4000</p>
+                    </li>
+                    <li class="box-transacoes minus">
+                        <p>fera</p>
+                        <p>- R$ 800</p>
+                    </li>-->
+                </ul>
+            </div><!--transacoes-->
+            <div class="add-transacao">
+                <h2>Adicionar transação</h2>
+                <p>Nome</p>
+                <input class="name" type="text" placeholder="Nome da transação">
+                <p>Valor (negativo - despesas, positivo - receitas)</p>
+                <input class="valor" type="number" placeholder="Valor da transação">
+                <input class="btn" type="submit" value="Adicionar">
+            </div>
+        </div><!--container-->
+        <script src="./js/fuctions.js"></script> 
+    </body>
+</html>
